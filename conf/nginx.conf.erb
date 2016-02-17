@@ -33,6 +33,8 @@ http {
     location / {
       expires 10s;
     }
+
+    error_page 404 /pages/404.html;
   }
 }
 
